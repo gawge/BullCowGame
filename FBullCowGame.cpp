@@ -103,7 +103,7 @@ FString FBullCowGame::NewHiddenWord()
 
 	int no_of_numbers = 10;
 	int first_number = 1;
-																			/*MY FAVOURITE BIT - this here function creates a map with our hidden words as the elements
+																			/*MY FAVOURITE BIT - this function creates a map with our hidden words as the elements
 																			then generates a "random" value 1-10 which represents a key in the map*/ 
 	std::srand(std::time(0));
 																			/*the value is generated using the rand func and i used the local system time as the seed
